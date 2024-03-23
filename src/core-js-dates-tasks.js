@@ -279,7 +279,7 @@ function getWorkSchedule(period, countWorkDays, countOffDays) {
     day: '2-digit',
   };
 
-  const formatter = new Intl.DateTimeFormat('ISO', options);
+  const formatter = new Intl.DateTimeFormat('Ru', options);
 
   const res = [];
   while (startDate <= endDate) {
